@@ -1,4 +1,4 @@
-name: Auto Assign to Project(s)
+name: Auto Assign Issues to Project(s)
 
 on:
   issues:
@@ -9,7 +9,7 @@ on:
 jobs:
   assign_one_project:
     runs-on: ubuntu-latest
-    name: Assign to One Project
+    name: Assign to RRIV Project
     steps:
     - uses: actions/add-to-project@main
       with:
